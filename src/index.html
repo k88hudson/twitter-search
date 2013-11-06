@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Search for tweets</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <form action="/tweets" method="GET">
+      <h2>Search for tweets:</h2>
+      <fieldset>
+        <input name="search" type="text"><button class="button" type="submit" value="submit"><span class="icon-search"></span></button>
+      </fieldset>
+    </form>
+    <script src="/bower_components/requirejs/require.js" data-main="main"></script>
+  </body>
+</html>

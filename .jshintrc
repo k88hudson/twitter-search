@@ -1,0 +1,22 @@
+{
+  "globals": {
+    "module": true,
+    "define": true,
+    "requirejs": true,
+    "require": true,
+    "console": true
+  },
+  "browser": true,
+  "curly": true,
+  "eqeqeq": true,
+  "latedef": true,
+  "indent": 2,
+  "newcap": true,
+  "node": true,
+  "noempty": false,
+  "nonew": true,
+  "quotmark": "single",
+  "undef": true,
+  "unused": false,
+  "trailing": true
+}

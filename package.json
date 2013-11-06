@@ -1,0 +1,22 @@
+{
+  "name": "twitter-search",
+  "version": "0.0.0",
+  "dependencies": {
+    "bower": "~1.2.7",
+    "express": "~3.4.4",
+    "habitat": "~0.4.2",
+    "nunjucks": "1.0.0",
+    "grunt-nunjucks": "~0.1.0",
+    "grunt": "~0.4.1",
+    "grunt-cli": "0.1.10",
+    "grunt-contrib-jshint": "~0.7.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-less": "~0.8.1",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-develop": "~0.2.2",
+    "grunt-contrib-copy": "~0.4.1"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/.bin/bower install"
+  }
+}

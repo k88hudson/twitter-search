@@ -1,0 +1,10 @@
+{
+  "name": "twitter-search",
+  "version": "0.0.0",
+  "dependencies": {
+    "font-awesome": "~3.2.1",
+    "jquery": "~2.0.3",
+    "nunjucks": "1.0.0",
+    "requirejs": "~2.1.8"
+  }
+}

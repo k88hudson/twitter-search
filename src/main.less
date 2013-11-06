@@ -1,0 +1,58 @@
+/*********************************************************
+* Colours
+*/
+@blue: #4CB8F8;
+@dark-blue: darken(@blue, 20%);
+
+/*********************************************************
+* Breakpoints
+*/
+@width-small: 320px;
+@width-medium: 480px;
+@width-large: 960px;
+@width-xlarge: 1540px;
+
+/*********************************************************
+* Bower Imports
+*/
+
+
+// Font Awesome
+// Use http://fortawesome.github.io/Font-Awesome/cheatsheet/ as a guide
+@import "bower_components/font-awesome/less/font-awesome";
+@FontAwesomePath: "/bower_components/font-awesome/font";
+
+body {
+  font-family: sans-serif;
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  background: @blue;
+  color: @dark-blue;
+}
+
+form {
+  margin-top: 50px;
+  fieldset {
+    border: none;
+    padding: 0;
+  }
+  input {
+    font-size: 32px;
+    font-family: sans-serif;
+    padding: 5px;
+    color: @dark-blue;
+    border: 1px solid @dark-blue;
+    &:focus {
+      outline: none;
+    }
+  }
+  .button {
+    background: @dark-blue;
+    color: white;
+    font-size: 32px;
+    padding: 5px 8px;
+    cursor: pointer;
+    border: none;
+  }
+}
