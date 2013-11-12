@@ -14,7 +14,8 @@
     "grunt-contrib-less": "~0.8.1",
     "grunt-contrib-requirejs": "~0.4.1",
     "grunt-develop": "~0.2.2",
-    "grunt-contrib-copy": "~0.4.1"
+    "grunt-contrib-copy": "~0.4.1",
+    "twitter": "~0.2.4"
   },
   "scripts": {
     "postinstall": "./node_modules/.bin/bower install"
